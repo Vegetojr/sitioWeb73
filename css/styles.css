@@ -1,0 +1,171 @@
+/*
+Selcetor universal
+*/
+
+*
+{
+    margin: 0; /*Para quitar*/
+    padding: 0;
+}
+
+/*
+Selector de tipo
+*/
+
+body
+{
+    background-color: #8c90c292;
+    color: white;
+
+}
+
+ul
+{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+li
+{
+    display: inline; /*Para mostrar de forma horizontal*/
+    margin: 3em;
+    padding: 10px 30px; /*El padding va de arriba a la derecha */
+}
+
+li a
+{
+    text-decoration: none; /*Para quitar la decoracion de los li en a*/
+}
+
+hr
+{
+    border: none;
+    height: 4px;
+    background-color: black;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 3);
+    margin: 20px 0px;
+}
+
+li a:hover
+{
+    color: #c29;/*Cuando se haga un hover sobre el anchor se va a realizar esto*/
+    font-size: 30px;
+}
+
+
+/*
+Selector de Id
+*/
+
+#contenedor
+{
+    width: auto;
+    height: auto;
+    background-color: #a52ca5;
+    margin: 40px; /*Como no tiene diferentes valores los aplica a todos como 40*/
+    padding: 20px;
+    border-radius: 20px; /*Smooths out the border of the box*/
+    box-shadow: 0px 2px 6px 0px #320;
+}
+
+#encabezado
+{
+    width: auto;
+    height: auto;
+    background-color: #f32ba4;
+    
+    margin: 1em; /*Unidad de medida relativa a algo.*/
+    
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px 0px #320;
+}
+
+/*
+Selector de clase
+*/
+
+.imagen
+{
+    border-radius: 20Px;
+
+}
+
+.menu
+{
+    height: auto;
+    width: 90%;
+    background-color: #d10db0;
+    margin: 1em;
+    border-radius: 4px;
+    box-shadow: 0px 2px 6px 0px #320;;
+}
+
+.img
+{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.modelo
+{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: transparent;
+    font-weight: bold;
+}
+
+.descripcion
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400px;
+    text-align: justify;
+    font-size: 17px;
+    padding: 7px 21px;
+    background-color: #8234ab;
+    color: #000000;
+}
+
+.boton
+{
+    border: none;
+    outline: none;
+    display: inline-block;
+    padding: 8px;
+    color: #000000;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton:hover
+{
+    background-color: #000000;
+    color: white;
+    transform: scale(1,1);
+    transform: all 0.3s ease;
+}
+
+.footer
+{
+    background-color: #f32ba4;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: 0px 2px 6px 0px #320;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/cotizacion.css">
+    <title> Cotizacion</title>
+</head>
+<body>
+    <header class="cabeza">
+        <h1>Cotizacion de carros</h1>
+        <img src="/assets/imgAutos/imganeEmpresaAuto.png" alt="Imagen empresa AutoSleek">
+    </header>
+    <main>
+        <form action="https://formsubmit.co/jimenezalferezjoseph@gmail.com" method="post" class="tarjeta">
+            
+            <p>informacion personal</p>
+            <label for="Nombre">Nombre</label>
+            <input type="text" name= "Nombre" id="Nombre" placeholder="Escribr nombre completo" minlength="3" required>
+
+            <br>
+
+            <label for="Email">Email</label>
+            <input type="email" name="Email" id="Email" placeholder="Escribir Emal" required>
+            <br>
+
+            <label for="Poblacion">Poblacion</label>
+            <input type="text" name="Poblacion" id="Poblacion" placeholder="Donde vive" required>
+            <br>
+
+
+            <label for="Edad">Edad</label>
+            <input type="number" name="Edad" id="Edad" min="18" max="100" >
+            <br>
+            <hr>
+
+            <p>informacion del carro </p>
+            <label for="Carro Seleccionado">Seleccion de Automóvil</label> 
+            <select name="Automóvil" id="Automóvil">
+                <option value="Nissan carro 1">Nissan carro 1</option>
+                <option value="Nissan carro 2">Nissan carro 2</option>
+                <option value="Nissan carro 3">Nissan carro 3</option>
+                <option value="Ford carro 1">Ford carro 1</option>
+                <option value="Ford carro 2">Ford carro 2</option>
+                <option value="Ford carro 3">Ford carro 3</option>
+                <option value="Chevrolet carro 1">Chevrolet carro 1</option>
+                <option value="Chevrolet carro 2">Chevrolet carro 2</option>
+                <option value="Chevrolet carro 3">Chevrolet carro 3</option>
+            </select>
+            <br>
+            
+            <hr>
+
+            <p>Condicion de pago</p>
+            <label for="Porcentaje de pago inicial">Porcentaje de pago inicial</label>
+            <input type="number" name="pago inicial" id="pago inicial" min="10" max="100">
+
+            <br>
+            
+
+            <label for="pagar a">Plazo a pagar</label>
+            
+            <label for="12">12 meses</label>
+            <input type="radio" name="pagar a" id="idPagar" value="12 meses" checked>
+
+            <label for="24">24 meses</label>
+            <input type="radio" name="pagar a" id="idPagar" value="24 meses">
+
+            <label for="36">36 meses</label>
+            <input type="radio" name="pagar a" id="idPagar" value="36 meses"> 
+
+            <label for="48">48 meses</label> 
+            <input type="radio" name="pagar a" id="idPagar" value="48 meses">
+
+            <label for="60">60 meses</label>
+            <input type="radio" name="pagar a" id="idPagar" value="60 meses">
+            <br>
+            <hr>
+
+            <textarea name="Comentarios" id="Comentarios" cols="50" rows="4" placeholder="Escrbe tus opinones"></textarea>
+            <br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+
+        </form>
+    </main>
+</body>
+</html>

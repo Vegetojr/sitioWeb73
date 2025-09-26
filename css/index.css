@@ -69,7 +69,7 @@ li a:hover
 
 body
 {
-    background-image: url("./assets/yorha.png");
+    background-image: url("../assets/yorha.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
